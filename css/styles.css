@@ -1,0 +1,123 @@
+/* 
+  hints::
+
+  focus on styling the element before 
+  positioning
+*/
+
+#logo {
+  width: 272px;
+}
+
+/* 
+use flexbox for the body to 
+align the content to the center of the page
+*/
+.content {
+  position: absolute;
+  top: 20%;
+  left: 29%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+input {
+  border: 1px solid lightgray;
+  width: 550px;
+  margin: auto;
+  border-radius: 30px;
+  padding: 15px;
+  box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+img, input {
+  margin-bottom: 30px;
+}
+
+.center-content {
+  text-align: center;
+
+}
+
+/* use this style to style the 
+buttons  add some padding to match google*/
+
+button {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 11px;
+  width: 135px;
+  font-size: 14px;
+  color: #585858;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: helvetica;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+a:link {
+  text-decoration: none;
+  color: #505050;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  color: #505050;
+}
+
+.left {
+  float: left;
+  padding: 30px;
+}
+
+
+.right {
+  float: right;
+  padding: 30px;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 10px;
+  overflow: hidden;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+
+header a,
+footer a {
+  padding: 5px 16px;
+}
+
+footer {
+   background-color: #F0F0F0;
+   overflow: hidden;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+ }
+ 
